@@ -1,0 +1,107 @@
+h2,p{
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align:center;
+    background-color:#002333;
+    color:white;
+}
+.separator{
+    width: 100%;
+    border-top:1px solid #ccc ;
+    margin:20px 0;
+}
+.calculo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+}
+
+  
+.exeadicionardieta {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .exeadicionardieta-image {
+    flex: 0 0 30%; /* 30% de largura para a imagem */
+    padding-right: 20px;
+  }
+  
+  .exeadicionardieta-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .exeadicionardieta-content {
+    flex: 1;
+    margin:2px
+  }
+  
+.exeevitar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .exeevitar-image {
+    flex: 0 0 30%; /* 30% de largura para a imagem */
+    padding-right: 20px;
+  }
+  
+  .exeevitar-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .exeevitar-content {
+    flex: 1;
+  }
+  
+  .exeevitar-content p {
+    margin-bottom: 10px;
+  }
+
+main h2{
+    text-align: center;
+}
+.calculo{
+    margin-bottom: 10px;
+}
+.inicio p{
+  text-align: center;
+}
+main{
+  background-image:url('imgbackgorund.png') ;
+  background-size:cover;
+  background-position:center;
+  color:white;
+}
+
+.calculo{
+  background-color: #002333;
+  color:white
+}
+
+#calculate{
+  background-color:#DEEFE7 ;
+  color:black;
+}
+footer {
+  background-image:url('Untitled\ design.png') ;
+  background-size:cover;
+  background-position:center;
+  text-align: center;
+  color:#002333;
+  min-height: 150px;
+}
+
+footer h2{
+  padding: 60px;
+}
