@@ -106,5 +106,18 @@ footer h2{
   padding: 60px;
 }
 @media (max-width: 768px) {
-    .header {
-        font-size: 10pt;
+    /* Estilos específicos para dispositivos com tela menor ou igual a 768px, incluindo Android */
+    
+    /* Ocultar as imagens nas classes .exeadicionardieta-image e .exeevitar-image */
+    .exeadicionardieta-image,
+    .exeevitar-image {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
